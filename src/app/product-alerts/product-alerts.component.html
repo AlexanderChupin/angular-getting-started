@@ -1,0 +1,4 @@
+<p *ngIf="product_child_prop && product_child_prop.price < 700">
+<button type="button" (click)="notify1.emit(product_child_prop)">Subscribe to price change. The current price is {{product_child_prop.price}}</button>
+</p>
+
